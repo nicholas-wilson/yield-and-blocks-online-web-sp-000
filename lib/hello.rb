@@ -6,4 +6,3 @@ def hello_t(names)
     counter += 1
   end
 end
-
