@@ -1,7 +1,7 @@
 def hello_t(names)
   counter = 0
 
-  while counter < name.length
+  while counter < names.length
     yield names[counter]
     counter += 1
   end
