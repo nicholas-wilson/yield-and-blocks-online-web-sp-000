@@ -1,11 +1,8 @@
 def hello_t(names)
-  if (names.size <= 0)
-    puts "Hey! No block was given!"
-    return names
-  end
-  names.each do |name|
-    puts name
+  counter = 0
+
+  while counter < name.length
+    yield names[counter]
+    counter += 1
   end
 end
-
-# call your method here!
