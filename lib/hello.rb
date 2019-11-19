@@ -5,4 +5,5 @@ def hello_t(names)
     yield names[counter]
     counter += 1
   end
+  names
 end
